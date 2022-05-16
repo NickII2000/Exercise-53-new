@@ -14,4 +14,4 @@ function changeParams(elem, h, w) {
 changeParams(box, newHeight, newWidth);
 
 let userName, userKey;
-console.log(userName ?? userKey ?? 'User');
+console.log((userName && userKey) ?? 'User');
